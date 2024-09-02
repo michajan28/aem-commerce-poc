@@ -182,8 +182,9 @@ body:not(.appear) {
 header {
   height: var(--nav-height);
   --color-brand-500: #fff;
-  --color-brand-600: #fff;
+  --color-brand-600: #eaeaea;
   --color-brand-700: #2b2b2b;
+  --color-button-hover: var(--color-brand-600);
   color: white;
 }
 
