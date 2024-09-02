@@ -464,7 +464,7 @@ header .nav-search-input .search_autocomplete .popover-container {
 .dropdown-wrapper.nav-tools-wrapper .nav-auth-menu-panel .authenticated-user-menu li button {
   cursor: pointer;
   background-color: transparent !important;
-  color: currentcolor !important;
+  color: white; // <----
   padding: 12px 15px !important;
   display: inline-block !important;
   width: 100% !important;
