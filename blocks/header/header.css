@@ -292,7 +292,7 @@ header nav .nav-tools {
 }
 
 header nav .nav-tools-wrapper > button {
-  color: var(--color-brand-700);
+  color: white;
   background: transparent;
   padding: 10px;
   border: unset;
