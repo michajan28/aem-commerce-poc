@@ -183,7 +183,8 @@ header {
   height: var(--nav-height);
   --color-brand-500: #fff;
   --color-brand-600: #fff;
-  --color-brand-700: #fff !important;
+  --color-brand-700: #2b2b2b;
+  color: white;
 }
 
 h1 {
