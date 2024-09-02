@@ -71,7 +71,7 @@ header nav .nav-hamburger button {
   border-radius: 0;
   padding: 0;
   background-color: var(--color-neutral-50);
-  color: white;
+  color: inherit;
   overflow: initial;
   text-overflow: initial;
   white-space: initial;
@@ -245,7 +245,7 @@ header nav .nav-sections ul > li > ul > li {
     width: 200px;
     margin-top: 12px;
     padding: 1em;
-    background-color: white;
+    background-color: var(--color-neutral-500);
     white-space: initial;
   }
 
@@ -292,7 +292,7 @@ header nav .nav-tools {
 }
 
 header nav .nav-tools-wrapper > button {
-  color: white;
+  color: var(--color-brand-700);
   background: transparent;
   padding: 10px;
   border: unset;
@@ -314,7 +314,7 @@ header nav .nav-tools button.nav-cart-button[data-count]::after {
   top: 0;
   right: -2px;
   background-color: var(--color-brand-700);
-  color: white;
+  color: var(--color-neutral-100);
   border-radius: 50%;
   width: 1.75em;
   height: 1.75em;
@@ -464,7 +464,7 @@ header .nav-search-input .search_autocomplete .popover-container {
 .dropdown-wrapper.nav-tools-wrapper .nav-auth-menu-panel .authenticated-user-menu li button {
   cursor: pointer;
   background-color: transparent !important;
-  color: white; // <----
+  color: currentcolor !important;
   padding: 12px 15px !important;
   display: inline-block !important;
   width: 100% !important;
