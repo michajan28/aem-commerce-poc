@@ -120,7 +120,7 @@ export async function performCatalogServiceQuery(query, variables) {
 
   const response = await fetch(apiCall, {
     method: 'GET',
-    headers,
+    headers: headers,
   });
 
   if (!response.ok) {
